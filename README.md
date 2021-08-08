@@ -1,6 +1,6 @@
 # server-B
 
-## The node.js example app
+## The node.js app
 
 [![CircleCI](https://img.shields.io/circleci/project/github/contentful/the-example-app.nodejs.svg)](https://circleci.com/gh/contentful/the-example-app.nodejs)
 
