@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 const app = express();
 const PORT = process.env.port || 5000;
 
-const URI = 'mongodb+srv://admin:IXULWGqJfgzGoqOn@cluster0.l5iad.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const URI = 'mongodb+srv://admin:[password]@cluster0.l5iad.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 app.use(bodyParser.json({limit: '30mb'}));
 app.use(bodyParser.urlencoded({extended: true, limit: '30mb'}));
